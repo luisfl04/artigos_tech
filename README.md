@@ -1,4 +1,4 @@
-# Artigos tecnológicos
+# Artigos sobre tecnologia
   Este repositório contém artigos que escrevi sobre diversos temas realcionados a tecnologia. Principalmente de temas que estudo ou já estudei em algum momento.
 
 ## Tecnologias usadas:
