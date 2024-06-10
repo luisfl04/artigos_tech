@@ -80,7 +80,78 @@ Entrada e saida com arquivos:
 
 ![exemplo de operação de entrada e saida com arquivos](./imagens/implementacao_escrevendo_e_lendo_arquivo.PNG)
 
-## 
+## Definindo constantes:
+
+Constantes como o própio nome já expõe, são valores que não alteram com tanta frequência ou quase nunca, ou seja, quando você estiver trabalhando com valores que dificilmente ou nunca irão mudar no seu código, as constantes são usadas, para armazenar esses valores. Há muitas maneiras de definir constantes em C, mas vamos focar em duas maneiras principais de definir. A primeira diz respeito a definir o valor a partir da sintaxe ``#define``, essa maneira está relacionada a fase de pré-processamento do programa, onde o compilador reconhece o valor definido e o chama de acordo com a implementação do código. Já a segunda é um caso mais comúm, que é quando usamos a palavra reservada ``const`` para definir as constantes. Abaixo há uma ilustração de como fazer a definição nos dois casos:
+
+![exemplo de definição de constantes](./imagens/definindo_constantes.PNG)
+
+## Comando condicionais:
+
+É impresindível conhecer de comandos condicionais para ter um código bem implementado, independente do contexto da aplicação com que se está trabalhando. Em C, a sintaxe dos comandos condicionais não foge tanto do padrão que é visto em outras linguagens, basicamente esse padrão raramente muda nas linguagens mais usadas no mercado. Na minha opinião, o que é mais preciso se atentar nesses casos, é o aspécto de semântica, ou seja, qual o resultado que você quer ao usar estes comandos de condição, pois basicamente é para isso que eles são usados. Em C, a sintaxe dos comandos de repetição são representadas principalmente com as palavras: ``if``, ``else`` e ``swicth``. Veja implementações de comandos condicionais em C abaixo:
+
+![exemplos de comandos condicionais](./imagens/comandos_condicionais.PNG)
+
+## Comandos de repetição:
+
+Tão importante quanto os comandos de condição, são os comandos de repetição. Com eles é mais fácil obter ou inserir valores em listas, por exemplo. O seu uso é muito corriqueiro em qualquer contexto de sistema ou implementação de um programa. As sintaxes básicas para utilizar comandos de repetição em C, são as seguintes: ``for``, ``while`` e ``do while``, onde cada uma tem seus casos onde é nescessário utilizá-las. Dê uma olhada nas implementaçoes abaixo:
+
+![exemplo de implementações de estruturas de repetição](./imagens/estruturas_de_repeticao.PNG)
+
+## Vetores e Matrizes:
+
+O uso de vetores e matrizes está fortemente associado a quando você quer armazenar múltiplos valores de um mesmo tipo, ou seja, vetores e matrizes facilitam o armazenamento de várias variáveis de um mesmo tipo em um mesmo local. O acesso a essas variáveis é feito por meio dos índices. A maioria das linguagens tem a característica de começar a contar os valores dos índices pelo 0, sendo assim, a variável de número 1 de um determinado vetor, está armazenada no índice 0 do mesmo. É possível criar vetores e matrizes de todos os tipos primitivos citados, desde que os valores das variáveis sejam do mesmo tipo. 
+
+Qual a diferença entre vetor e matriz? É bem simples, vetores são estruturas unilineares, ou seja, seus valores são armazenados em uma única linha, diferente da matriz que tem por característica o armazenamento de valores em múltiplas linhas. Oberve o exemplo de implementação abaixo:
+
+Implementando vetor e matriz:
+![Exemplo de implementação de um vetor e uma matriz](./imagens/vetor_e_matrizes_exemplo.PNG)
+
+Saida no terminal:
+
+![saida do terminal oriúnda da implementação de vetor e matrz](./imagens/exibição_do_terminal_vetor_e_matriz.PNG)
+
+## Strings:
+
+Como já falado anteriormente, a linguagem C é diferente das outras outras linguagens quando o assunto é criação de strings, pois em C não há o tipo primitivo ``String``. Para criar uma string, é preciso usar os conhecimentos do tópico anterior(vetor e matriz). Pois, neste linguagem, strings são ``vetores de caracteres``, já que o único tipo primitivo existente é o de caracteres únicos, que é o tipo ``char``. Há uma biblioteca bastante útil relacionada a strings em C, que possúi funções muito úteis quando está se trabalhando com este tipo de dado, que é a biblioteca ["string.h"](https://linguagemc.com.br/a-biblioteca-string-h/).
+
+Dê uma olhada em como implementar uma string em C :
+
+![exemplo de implementação de uma string em C](./imagens/strings_implementação.PNG)
+
+## Estruturas(Registros):
+
+Este é um "tipo" de dado especial, pois ele permite armazenar em um único local valores de diferentes tipos, ou seja, é possível armazenar inteiros, strings, caracteres, numeros de ponto flutuante, vetores e entre outros tipos em um mesmo local. O seu uso vem da palavra reservada ``struct``, onde é nescessário passar um nome para a estrutura, e abaixo, criar variáveis que irão armazenar os campos que foram implementados dentro da estrutura, sendo parecido com o processo de criar objetos em linguagens que são orientadas a objeto. Enfim, irei dar uma idéia geral apenas. Se quer aprender mais sobre este tema tão poderoso, [clique aqui](https://linguagemc.com.br/struct-em-c/) 
+
+Esta é uma implementação básica:
+
+![exemplo de criação de uma estrutura](./imagens/estruturas_de_repeticao.PNG)
+
+## Funções:
+
+O uso de funções está fortemente relacionado a quando você está repetindo um bloco de código muitas vezes no seu programa ou quando você decide por organizar o seu programa em subrotinas, que nada mais é do que implementar o programa em blocos organizados, onde cada bloco é responsável por executar algo para o sistema. Em c, temos a função ``main()``, que é a função que o compilador verifica no momento da execução. É uma boa prática ao programar em C, fazer com que a função main funcione como um "esboço" do que o programa faz, ou seja, que a função main apenas chame as outras funções correspondentes do programa. Sendo assim, o uso de funções é impressindível para ter um código organizado e mais fácil de manter.
+
+Veja este exemplo de um programa que está organizado em funções:
+
+![Exemplo de programa que usa funções](./imagens/implementcao_de_funcoes.PNG)
+
+## Arquivos:
+
+Este tema está relacionado basicamente a execução de escrita e leitura de dados em um arquivo qualquer, seja escrita de caracetere normais ou de valores binários. Estas implementações, são feitas a partir de funções correspondentes, vou listar algumas abaixo:
+
+- ``fopen()``: Para realizar a abertura de um arquivo.
+- ``fclose()``: Fazer o fechamento do arquivo.
+- ``rewind()``: Posicionar o arquivo em seu início.
+- ``feof()``: Para verificar se o arquivo já está no fim.
+
+Existem muitas outras, se quiser se aprofundar mais neste assunto, disponibilizei [este link](https://linguagemc.com.br/arquivos-em-c-categoria-usando-arquivos/) .
+
+Há um exemplo de entrada e saida de dados com arquivos [neste tópico](./README.md#entrada-e-saida-de-dados) do arquivo, onde é possível analisar como é feito estas implementações.
+
+## Considerações:
+
+Se você leu até aqui, espero que tenha gostado do que aprendeu. Minha intenção era somente passar o mínimo do básico desta linguagem de programação tão poderosa. Para se aprofundar mais, clique nos links que disponibilizei, ou acesse [este site](https://linguagemc.com.br/), ele dispõe de vários artigos que com certeza irá te ajudar.
+
 
 
 
