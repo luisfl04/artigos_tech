@@ -2,7 +2,7 @@
 
 ## Introdução:
     
-    Este artigo foi criado para expor as principais carcterísticas mais básicas da linguagem C. Explorando conceitos que irão dar ao leitor uma idéia básica de como funciona a sintaxe e a semântica da linguagem. 
+Este artigo foi criado para expor as principais carcterísticas mais básicas da linguagem C. Explorando conceitos que irão dar ao leitor uma idéia básica de como funciona a sintaxe e a semântica da linguagem. 
 
 
 ## História da linguagem:
