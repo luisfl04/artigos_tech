@@ -23,7 +23,7 @@ Em 1985, foi estabelecido um padrão para a linguagem, que foi denominado [C ANS
 
 ## Características gerais:
 
-C é considerada uma linguageem de médio nível, ou seja, está entre os conceitos de linguagens de [alto e baixo nível](https://www.dio.me/articles/linguagens-de-programacao-de-alto-e-baixo-nivel). C  permite a manipulação de bytes e endereços de memória,  é uma linguagem que segue o paradígma de programação "estruturada", e tem suas implementações baseadas principalmente em [funções](https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_funcoes.html). Com isso, é possível determinar que o principal componente estrutural do C são as funções, sendo que a principal função do programa é a denominada função "main()".
+C é considerada uma linguagem de médio nível, ou seja, está entre os conceitos de linguagens de [alto e baixo nível](https://www.dio.me/articles/linguagens-de-programacao-de-alto-e-baixo-nivel). C  permite a manipulação de bytes e endereços de memória,  é uma linguagem que segue o paradígma de programação "estruturada", e tem suas implementações baseadas principalmente em [funções](https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_funcoes.html). Com isso, é possível determinar que o principal componente estrutural do C são as funções, sendo que a principal função do programa é a denominada função "main()".
 
 ## Tipos primitivos:
 
