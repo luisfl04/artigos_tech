@@ -53,7 +53,54 @@ Outro aspécto muito importante no conhecimento de uma linguagem, são as palavr
 
 ## Entrada e saida de dados:
 
-A entrada e saida de dados 
+A entrada e saida de dados em linguagem C pode ser implementada de várias formas, como em programas básicos usando as funções ``printf()`` para imprimir valores via console e ``scanf()`` para receber dados do usuário via teclado, ambas pertencentes a biblioteca padrão "stdio". Outra forma é quando se está trabalhando com leitura e escrita em arquivos, tanto de forma binária quanto da forma usual. Neste caso, são usadas as funções abaixo:
+
+- ``putc()`` : Para inserir um caractere qualquer no arquivo.
+- ``getc()``: Para ler um caractere qualquer.
+- ``putsc() e getsc()``: Para escrever e ler múltiplos caracteres em um arquivo, respectivamente.
+- ``fprintf() e fscanf()``: São equivalentes as funções padrão que foram citadas acima, só que estão relacionadas com manipulação de arquivos. Neste caso, ``fprintf()`` escreve no arquivo e ``fscanf()`` ler algum valor do arquivo.
+
+Para terem uma idéia mais fundamentada de como trabalhar com essas funções, aconselho que visitem [este link](https://www.freecodecamp.org/portuguese/news/manipulacao-de-arquivos-em-c-como-abrir-e-fechar-arquivos-e-escrever-algo-neles/).
+
+Um dos aspéctos mais importantes deste assunto de entrada e saida de dados, é a formatação a partir do tipo correspondente. Sem a formatação, não é possível realizar as operações corretamente. Abaixo está as formatações correspondentes aos tipos primitivos:
+
+- ``%c``: Caracteres únicos;
+- ``%s``: Cadeia de caracteres;
+- ``%d``: Número inteiro(int);
+- ``%f``: Valores do tipo float;
+- ``%lf``: Valores double;
+
+Certo, agora que você já viu a teoria básica, implementei alguns exemplos abaixo, dê uma olhada:
+
+Exemplo de entrada e saida normal:
+
+![exemplo de operação básica de entrada e saída](./imagens/implementacao_de_exemplo_entrada_e_saida_de_dados.PNG)
+
+Entrada e saida com arquivos:
+
+![exemplo de operação de entrada e saida com arquivos](./imagens/implementacao_escrevendo_e_lendo_arquivo.PNG)
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
