@@ -62,7 +62,7 @@ A entrada e saida de dados em linguagem C pode ser implementada de várias forma
 
 Para terem uma idéia mais fundamentada de como trabalhar com essas funções, aconselho que visitem [este link](https://www.freecodecamp.org/portuguese/news/manipulacao-de-arquivos-em-c-como-abrir-e-fechar-arquivos-e-escrever-algo-neles/).
 
-Um dos aspéctos mais importantes deste assunto de entrada e saida de dados, é a formatação a partir do tipo correspondente. Sem a formatação, não é possível realizar as operações corretamente. Abaixo está as formatações correspondentes aos tipos primitivos:
+Um dos aspéctos mais importantes deste assunto de entrada e saida de dados, é a formatação a partir do tipo correspondente. Sem a formatação, não é possível realizar as operações corretamente. Abaixo estão as formatações correspondentes aos tipos primitivos:
 
 - ``%c``: Caracteres únicos;
 - ``%s``: Cadeia de caracteres;
