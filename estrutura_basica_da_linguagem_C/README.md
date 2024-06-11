@@ -125,7 +125,7 @@ Este é um "tipo" de dado especial, pois ele permite armazenar em um único loca
 
 Esta é uma implementação básica:
 
-![exemplo de criação de uma estrutura](./imagens/estruturas_de_repeticao.PNG)
+![exemplo de criação de uma estrutura](./imagens/estruturas_exemplo.PNG)
 
 ## Funções:
 
