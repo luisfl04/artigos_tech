@@ -37,7 +37,7 @@ As variáveis em C podem possuir os seguintes tipos básicos:
 
 **Int**: É usado para armazenar valores numéricos inteiros, sendo que há um limite para o tamanho desses valores, que é de 4 bytes(32 bits). 
 
-**Float**: Basicamente, é usado para armazenar valores de ponto flutuante, ou seja, valores com casas decimais estabeleciadas. Este tipo também consegue armazenar valores de até 4 bytes.
+**Float**: Basicamente, é usado para armazenar valores de ponto flutuante, ou seja, valores com casas decimais estabelecidas. Este tipo também consegue armazenar valores de até 4 bytes.
 
 **Double**: Segue as mesmas implementações do tipo float, a diferença como o própio nome ja diz, é que neste tipo é possível armazenar o dobro do que se pode armazenar em float, ou seja, 8 bytes(64 bits).
 
