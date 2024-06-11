@@ -146,7 +146,7 @@ Este tema está relacionado basicamente a execução de escrita e leitura de dad
 
 Existem muitas outras, se quiser se aprofundar mais neste assunto, disponibilizei [este link](https://linguagemc.com.br/arquivos-em-c-categoria-usando-arquivos/) .
 
-Há um exemplo de entrada e saida de dados com arquivos [neste tópico](./README.md#entrada-e-saida-de-dados) do arquivo, onde é possível analisar como é feito estas implementações.
+Há um exemplo de entrada e saida de dados com arquivos [neste tópico](./README.md#entrada-e-saida-de-dados) do artigo, onde é possível analisar como é feito estas implementações.
 
 ## Considerações:
 
