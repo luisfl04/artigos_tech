@@ -2,7 +2,7 @@
   Este repositório contém artigos que escrevi sobre diversos temas realcionados a tecnologia. Principalmente de temas que estudo ou já estudei em algum momento.
 
 ## Artigos adicionados:
-   - Artigo sobre características gerais da linguagem de programação C, com exemplos de implementação -> [Acesse aqui](https://github.com/luisfl04/artigos_tech/tree/master/estrutura_basica_da_linguagem_C) 
+   - Artigo sobre características gerais da linguagem de programação C, com exemplos de implementação: [Acesse aqui](https://github.com/luisfl04/artigos_tech/tree/master/estrutura_basica_da_linguagem_C) 
 
 ## Tecnologias usadas:
 
